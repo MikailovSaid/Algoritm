@@ -1,0 +1,30 @@
+With pseudocode :
+
+input temprature
+   string t = "temprature"
+   t < 15
+    print "Weather is cold"
+   if
+    t > 15
+     print "Weather is hot"
+
+
+
+With C# :
+using System
+
+namespace ConsoleApp1
+ {
+   class Program
+   {
+    int temprature = 14;
+    if (temprature < 15)
+    {
+      
+
+      Console.Writeline("Temprature is cold")
+    else if (temprature > 15)
+    {
+
+      Console.Writeline("Temprature is hot")
+     
