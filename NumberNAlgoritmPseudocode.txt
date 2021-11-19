@@ -1,0 +1,28 @@
+With C# :
+
+using System;
+namespace ConsoleApp1
+{
+  class Program
+  {
+   int n = 23;
+   if (n % 7 == 0 && n % 3 ==0)
+   
+   Console.WriteLine(Divided);
+
+  }
+   else 
+  {
+   Console.Writeline(Not divided);
+   
+  }
+
+
+With pseudocode :
+
+input n
+ n % 3 == 0 && n % 7 == 0
+  print "Divided"
+ else
+  print "Not divided"
+  
