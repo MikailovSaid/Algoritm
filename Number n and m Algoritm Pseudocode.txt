@@ -1,0 +1,27 @@
+With pseudocode :
+
+input n
+input m
+ n % 2 == 0 && m % 2 == 0
+  print "Even"
+ else
+  print "Odd"
+
+
+With C# :
+
+using System;
+namespace ConsoleApp1
+{
+  class Program
+  {
+   int n = 4;
+   int m = 6;
+   if (n % 2 == 0 && m % 2 == 0)
+
+   Console.Writeline(Even);
+
+   }
+    else
+   {
+    Console.Writeline(Odd);
